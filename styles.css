@@ -1,0 +1,49 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse
+}
+
+th,td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px; 
+}
+ form {
+      max-width: 400px;
+      margin: 40px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-family: Arial, sans-serif;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input {
+      width: 90%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #aaa;
+      border-radius: 4px;
+    }
+
+    input:invalid {
+      border-color: red;
+    }
+
+    .submit-btn {
+      margin-top: 20px;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .submit-btn:hover {
+      background-color: #45a049;
+    }
